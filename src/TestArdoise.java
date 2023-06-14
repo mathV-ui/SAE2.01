@@ -162,37 +162,37 @@ public class TestArdoise {
 			
 			ardoise.ajouterForme(Tour);
 			
-	        ardoise.dessinerGraphique();
+		        ardoise.dessinerGraphique();
 	        
-	        assert Tour.equals(Tour) : "La méthode equals() ne fonctionne pas correctement.";
-	        assert !Tour.equals(null) : "La méthode equals() ne gère pas correctement le cas de null.";
+		        assert Tour.equals(Tour) : "La méthode equals() ne fonctionne pas correctement.";
+	        	assert !Tour.equals(null) : "La méthode equals() ne gère pas correctement le cas de null.";
 	
-	        assert !Tour.equals(Oiseau1) : "La méthode equals() ne fonctionne pas correctement.";
-	        assert !Oiseau1.equals(Tour) : "La méthode equals() ne fonctionne pas correctement.";
+		        assert !Tour.equals(Oiseau1) : "La méthode equals() ne fonctionne pas correctement.";
+		        assert !Oiseau1.equals(Tour) : "La méthode equals() ne fonctionne pas correctement.";
 
-	        assert Tour.equals(Tour) : "La méthode equals() ne fonctionne pas correctement.";
-	        assert !Tour.equals(null) : "La méthode equals() ne gère pas correctement le cas de null.";
+	        	assert Tour.equals(Tour) : "La méthode equals() ne fonctionne pas correctement.";
+	        	assert !Tour.equals(null) : "La méthode equals() ne gère pas correctement le cas de null.";
 
-	        assert !Tour.equals(Oiseau1) : "La méthode equals() ne fonctionne pas correctement.";
-	        assert !Oiseau1.equals(Tour) : "La méthode equals() ne fonctionne pas correctement.";
+	        	assert !Tour.equals(Oiseau1) : "La méthode equals() ne fonctionne pas correctement.";
+	       		assert !Oiseau1.equals(Tour) : "La méthode equals() ne fonctionne pas correctement.";
 
-	        assert Tour.equals(Tour) : "La méthode equals() ne fonctionne pas correctement.";
-	        assert !Tour.equals(null) : "La méthode equals() ne gère pas correctement le cas de null.";
+	        	assert Tour.equals(Tour) : "La méthode equals() ne fonctionne pas correctement.";
+	       		assert !Tour.equals(null) : "La méthode equals() ne gère pas correctement le cas de null.";
 
-	        assert !Tour.equals(Oiseau1) : "La méthode equals() ne fonctionne pas correctement.";
-	        assert !Oiseau1.equals(Tour) : "La méthode equals() ne fonctionne pas correctement.";
+			assert !Tour.equals(Oiseau1) : "La méthode equals() ne fonctionne pas correctement.";
+	        	assert !Oiseau1.equals(Tour) : "La méthode equals() ne fonctionne pas correctement.";
 
-	        assert !Tour.equals(formeInvalide) : "La méthode equals() ne fonctionne pas correctement avec une forme invalide.";
-	        assert !formeInvalide.equals(Tour) : "La méthode equals() ne fonctionne pas correctement avec une forme invalide.";
+	        	assert !Tour.equals(formeInvalide) : "La méthode equals() ne fonctionne pas correctement avec une forme invalide.";
+	        	assert !formeInvalide.equals(Tour) : "La méthode equals() ne fonctionne pas correctement avec une forme invalide.";
 
-	        assert !Tour.equals(formeInvalide2) : "La méthode equals() ne fonctionne pas correctement avec une forme invalide.";
-	        assert !formeInvalide2.equals(Tour) : "La méthode equals() ne fonctionne pas correctement avec une forme invalide.";
+	        	assert !Tour.equals(formeInvalide2) : "La méthode equals() ne fonctionne pas correctement avec une forme invalide.";
+	        	assert !formeInvalide2.equals(Tour) : "La méthode equals() ne fonctionne pas correctement avec une forme invalide.";
 
-	        assert !Tour.equals(Oiseau1) : "La méthode equals() ne fonctionne pas correctement.";
-	        assert !Oiseau1.equals(Tour) : "La méthode equals() ne fonctionne pas correctement.";
+			assert !Tour.equals(Oiseau1) : "La méthode equals() ne fonctionne pas correctement.";
+	        	assert !Oiseau1.equals(Tour) : "La méthode equals() ne fonctionne pas correctement.";
 
-	        assert !Tour.equals(Oiseau1) : "La méthode equals() ne fonctionne pas correctement.";
-	        assert !Oiseau1.equals(Tour) : "La méthode equals() ne fonctionne pas correctement.";
+	        	assert !Tour.equals(Oiseau1) : "La méthode equals() ne fonctionne pas correctement.";
+	        	assert !Oiseau1.equals(Tour) : "La méthode equals() ne fonctionne pas correctement.";
 
 	       
 	        
